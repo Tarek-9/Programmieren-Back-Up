@@ -1,8 +1,8 @@
-body {
+.boxContainer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    //justify-content: center;
+    justify-content: center;
 }
 
 .box {
@@ -14,8 +14,6 @@ body {
     border-color:#f6f5f2;
     border-radius: 10px;
     border-width: thin;
-    
-
     img {
         width: 250px;
         border-top-left-radius: 10px;
